@@ -33,7 +33,7 @@ This salt formula uses Grok Exporter (https://github.com/fstab/grok_exporter) an
   3. `mkdir grok-exporter` and `cd grok-exporter/` 
   3. Create the salt formula: `vim init.sls` with the following content from [init.sls](https://github.com/jlvale/usbMonitoring-salt-formula/blob/master/salt/grok-exporter/init.sls).
   
-  3. `mkdir /files` inside the grok-exporter directory and `mv {grok-exporter}.tar ` created in step 2.
+  3. `mkdir /files` inside the grok-exporter directory and `mv {grok-exporter}.tar ` created in step 2 to this directory.
   
 4. This step contains the needed metadata for using the graphical web interface of SUSE Manager, so if you are just using a common salt-master you don´t need to repeat these next steps. 
 
