@@ -1,0 +1,13 @@
+grok_exporter:
+  $type: group
+  $help: Prometheus exporter for show connected USB Devices
+
+  enabled:
+    $type: boolean
+    $default: False
+
+  args:
+    $name: "Arguments"
+    $type: text
+    $default: --web.listen-address=":9144"
+    $help: Please refer to the documentation for available options.

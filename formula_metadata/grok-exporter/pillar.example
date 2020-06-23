@@ -1,0 +1,3 @@
+grok_exporter:
+  enabled: True
+  args: --web.listen-address=":9144"
