@@ -40,7 +40,7 @@ This salt formula uses Grok Exporter (https://github.com/fstab/grok_exporter) an
         cd /srv/formula_metada
         mkdir grok-exporter
         
-`mv` the files from [here](https://github.com/jlvale/usbMonitoring-salt-formula/tree/master/formula_metadata/grok-exporter) to the created directory.
+      `mv` the files from [here](https://github.com/jlvale/usbMonitoring-salt-formula/tree/master/formula_metadata/grok-exporter) to the created directory.
 
 5. `spacewalk-service restart` and you should be able to apply the created formula to any minion. After the formula is applied the minion should be exposing metrics about the connected USB-devices in the default port 9144. 
 
