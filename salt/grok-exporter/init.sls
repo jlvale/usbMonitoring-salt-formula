@@ -1,6 +1,6 @@
-/etc/grok-exporter:
 {% if salt['pillar.get']('grok_exporter:enabled', True) %}
   archive.extracted:
+    - name: /etc/grok-exporter
     - source: salt://grok-exporter/files/grok_exporter-1.0.0.tar
     - user: root
     - group: root
