@@ -27,7 +27,7 @@ This salt formula uses Grok Exporter (https://github.com/fstab/grok_exporter) an
           protocol: http
           port: 9144
 
-2. Then, create an .tar of the grok exporter directory and export it to the Salt master (in my case it's a SUSE Manager server).
+2. Then, create an .tar of the grok exporter directory `tar cfv grok_exporter-1.0.0.tar grok_exporter-1.0.0.RC3.linux-amd64/` and export it to the Salt master (in my case it's a SUSE Manager server).
 
 3. In the salt master server: `cd /srv/salt`
   3. `mkdir grok-exporter` and `cd grok-exporter/` 
