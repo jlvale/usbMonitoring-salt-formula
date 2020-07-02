@@ -5,7 +5,7 @@ This salt formula uses Grok Exporter (https://github.com/fstab/grok_exporter) an
 
 # Step by step 
 
-1. First you need to download the latest release of Grok Exporter, extract it, and create the following config file (inside the /examples directory): 
+1. First you need to download the latest release of Grok Exporter, extract it, and create the following config file, config_usb_devices.yml, (inside the /examples directory): 
 
         global:
           config_version: 3
