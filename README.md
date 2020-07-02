@@ -11,7 +11,7 @@ This salt formula uses Grok Exporter (https://github.com/fstab/grok_exporter) an
           config_version: 3
         input:
           type: file #stdin not working yet 
-          path: ./example/usb_devices.log #path to the log file to be monitored 
+          path: /etc/grok-exporter/grok_exporter-1.0.0.RC3.linux-amd64/example/usb_devices.log #path to the log file to be monitored 
           readall: true
         grok_patterns:
         - 'DEVICE [^=]*$'
