@@ -7,6 +7,7 @@ extract-grok:
     - user: root
     - group: root
     - mode: 644
+    - archive_format: tar
 
 cron-usb:
   cron.present:
