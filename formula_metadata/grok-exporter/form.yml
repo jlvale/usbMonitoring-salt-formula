@@ -4,7 +4,7 @@ grok_exporter:
 
   enabled:
     $type: boolean
-    $default: False
+    $default: True
 
   args:
     $name: "Arguments"
