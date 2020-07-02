@@ -16,7 +16,7 @@ cron-usb:
 
 cron-grok:
   cron.present:
-    - name: nohup ./grok_exporter -config ./example/config_usb_devices.yml &> /dev/null &
+    - name: nohup /etc/grok-exporter/grok_exporter-1.0.0.RC3.linux-amd64/example/grok_exporter -config /etc/grok-exporter/grok_exporter-1.0.0.RC3.linux-amd64/example/config_usb_devices.yml &> /dev/null &
     - identifier: Rodar o grok exporter sempre que a maquina reiniciar
     - user: root
     - special: '@reboot'
